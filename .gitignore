@@ -35,3 +35,14 @@ teacher_*/
 .idea/
 .DS_Store
 Thumbs.db
+.ipynb_checkpoints/
+core/
+iemocap_hf_student_ready.csv
+
+# Archivos temporales y datos grandes
+.ipynb_checkpoints/
+core/
+iemocap_hf_student_ready.csv
+
+# Notebooks temporales
+Untitled.ipynb
