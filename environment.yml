@@ -1,0 +1,26 @@
+name: audio_edge_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # --- Núcleo ---
+  - python=3.10
+  - pip
+  - ipykernel  # ESTO es lo que permite que aparezca en Jupyter
+
+  # --- Ciencia de Datos ---
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+
+  # --- Librerías de Sistema (Importante para Linux) ---
+  - libsndfile # Necesario para que soundfile funcione
+  
+  # --- Dependencias Python (Pip maneja mejor el audio) ---
+  - pip:
+    - soundfile       
+    - resampy           
+    - transformers      
+    - accelerate

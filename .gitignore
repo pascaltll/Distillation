@@ -1,0 +1,37 @@
+# Modelos y checkpoints
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.tar
+
+# Datasets y datos procesados
+RAVDESS/
+IEMOCAP_DATA/
+IEMOCAP_LITE/
+processed_*/
+
+# Entornos
+audio_edge_env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporales
+*.tmp
+.temp/
+tmp_trainer/
+core/
+
+# Resultados de entrenamiento
+results*/
+training_logs/
+unispeech_sat_large_finetuned/
+wavlm_finetuned*/
+teacher_*/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
